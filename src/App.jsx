@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Deice from "./Deice";
 import ReactConfetti from "react-confetti";
+import "./App.css";
 
 function App() {
   const [dice, setDice] = useState(() => generateNewDice());
